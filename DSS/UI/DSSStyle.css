@@ -1,0 +1,100 @@
+﻿.logotitle{ padding-left: 55px; width: 300px; color: #ffffff; font-family: 黑体; font-size: 16pt; word-break: keep-all;white-space:nowrap;}
+
+/*****导航css****/
+.kpms-navtable{  background:url(images/nav_mg.gif) repeat-x; border-collapse:collapse; border-spacing:0px; width:100%; padding:0px; margin:0px; border:none;}
+.kpms-navleftbutton{position:absolute; right:40px; width:30px;vertical-align:middle; text-align:center; cursor:pointer; float:left; display:inline; height:23px;}
+.kpms-navleftbutton a{ display:block; margin:4px 0px 0px 5px; }
+.kpms-navrightbutton{width:30px;vertical-align:middle; text-align:center; cursor:pointer; float:right; height:23px; z-index:300; position:absolute;  right:0px;}
+.kpms-navrightbutton a{ display:block; margin:4px 0px 0px 5px;}
+.kpms-navmiddle{}
+.kpms-navagation{overflow:hidden; margin:0px; margin-left:5px; padding:0px; line-height:23px; position:relative; width:954px; float:left;}
+.kpms-navagtable, .kpms-navagtable tr{ height:30px;}
+.kpms-navagation ul{list-style-type:none; padding:0px;list-style-image:none;height:23px;margin:0px; width:10000px;display:block; position:relative;}
+.kpms-navagation ul li{display:inline; }
+.kpms-navlia{ background:url(images/navli.gif) no-repeat 5px; height:23px; cursor:pointer; color:#000000; text-decoration:none; display:block; float:left; font-weight:normal; padding:0px 0px 0px 10px;}
+.kpms-navlispan{display:block;padding:0px 12px 0px 8px;}
+
+
+/*****布局css****/
+.kpms-pccontainer{ background:url(images/projectcenterheaderbg.jpg) repeat-x top; overflow:hidden; }
+.kpms-pcfooter{height:25px; font-weight:normal; line-height:25px; text-align:center; vertical-align:middle; background:#bfdef0 url(images/projectcenterfooterbg.jpg) repeat-x top; overflow:hidden;}
+.kpms-pcheader{height: 56px; width:1024px; overflow:hidden; margin-left:10px;}
+.kpms-pcusername{ position:absolute; top:10px; right:20px; color:#00156e; font-weight:bold;}
+
+.kpms-pcheader span{ display:block; height:56px; line-height:56px; font-size:14pt; font-weight:bold; color:#000; margin-left:20px;}
+.kpms-pcpeople{ position:absolute; top:20px; right:50px;}
+.kpms-pcpeople a{ display:block; line-height:20px; float:left; margin-left:20px;}
+
+.kpms-pctab{width:100%; height:28px; line-height:28px; background:#c0dbff url(images/pctabbg.jpg) repeat-x;}
+.kpms-pctab ul{ display:block;}
+.kpms-pctabli{height:30px; line-height:30px; cursor:pointer; display:inline-block; float:left; font-weight:bold; border-right:#6593cf 1px solid; border-left:#f9f9fb 1px solid; vertical-align:middle;color:#204d89; padding:0px 3px; white-space: nowrap;overflow: hidden;}
+.kpms-pctabli a{ padding:0px 5px; display:inline-block; height:30px; line-height:30px; color:#204d89;}
+.easyui-menubutton{ padding-right:10px;}
+.easyui-menubutton a{ padding-right:0px;}
+.kpms-pctablihover{ color:#FFFFFF; background:#ffe69e url(images/pctabhoverbg.jpg) repeat-x; color:#204d89;}
+.kpms-pctablihover a:hover{ text-decoration:none;}
+.kpms-pctablilink{ color:#FFFFFF; background:#fee17a url(images/pctablinkbg.jpg) repeat-x; color:#00001e;}
+.kpms-pctablilink a{color:#00001e;}
+
+/** tree新加样式 **/
+.tree-icongh{ background:url(images/tree_icongh.gif) no-repeat;}
+.tree-icontwo{ background:url(images/tree_icontwo.gif) no-repeat;}
+.tree-iconthree{ background:url(images/tree_iconthree.gif) no-repeat;}
+.tree-iconfour{ background:url(images/tree_iconfour.gif) no-repeat;}
+.treea{ display:inline-block; padding:2px 2px;}
+.tree-node-selected{ background:none;}
+.tree-node-selected a{ background:url(images/kpms-treebg.gif) center repeat-x;}
+
+/** menu替换样式 **/
+.menu-text{ left:5px;  width:100%;}
+.menu-sep{margin:0px;}
+.menu-item{ border-top:#ffffff 1px solid; border-bottom:#cccccc 1px solid;}
+.menu-item a{ display:block; height:20px; line-height:20px;}
+.menu-item a:hover{ text-decoration:none;}
+.menu-active{ background:#fee69e; border-left:none; border-right:none; }
+
+.kpms-tablew100{ width:100%;}
+.kpms-wp-listright{ margin-bottom: 5px; }
+.kpms-wp-listright .kpms-wp-header { background-image: url(images/webpartcenter.jpg); }
+.kpms-wp-listright .kpms-wp-header div { background-image: url(images/webpartcenter.jpg); color:#204d89; }
+.kpms-wp-listright .kpms-wp-footer { background-image: url(images/webpartcenter.jpg); }
+.kpms-wp-listright .kpms-wp-footer div { background-image: url(images/webpartcenter.jpg); }
+.kpms-wp-listright .kpms-wp-main{ border-left:#8ebee3 1px solid;}
+.kpms-wp-listright .kpms-wp-content { background-color: #ffffff;border-right:#8ebee3 1px solid; }
+
+
+.kpms-homebody{ background:#8ebee3; width:100%;}
+.kpms-home{ width:1000px; margin:0 auto; padding:29px; background:#fff;}
+.kpms-progressul {list-style:none; height:15px; line-height:15px; padding:0px; margin:0px;}
+.kpms-progressul li {text-align:center; width:65px;  padding:0px;margin:0px; display:block;float:left;font-size:8pt!important;  }
+.kpms-progressliready{background:url(images/proready.gif) no-repeat; color:#000;}
+.kpms-progressli{background:url(images/pronormal.gif) no-repeat; color:#999;}
+
+/*对比信息样式*/
+.kpms-compare{ border:#89acd4 1px solid; background:#fff;z-index: 100;position: absolute; display: block; top: 20px;right: 0px;
+ background: white;width: 270px;}
+.kpms-comparetitle{ width:270px; background:url(images/procomparetitle.jpg) #c0dbff repeat-x; height:25px; line-height:25px;}
+.kpms-comparetitle h3{ color:#fff!important; float:left; font-size:12px; padding-left:10px;}
+.kpms-comparetitle .kpms-compareclose{ margin:5px; float:right; background:url(images/compareclosed.gif); width:16px; height:16px;}
+.kpms-comparelist{ text-align:left; line-height:20px; border:#89acd4 1px solid; list-style:none; margin:2px; padding:2px;}
+.kpms-comparebutton{ width:270px; height:25px; text-align:center; font-size:10pt;}
+.kpms-comparecontent{width:270px; height:240px; overflow-y:auto;}
+.kpms-comparecontent ul{ padding:0px; margin:0px;}
+
+/*tab也自动生成样式改*/
+.ajax__tab_xp .ajax__tab_header{ font-size:9pt!important;}
+.ajax__tab_xp .ajax__tab_outer{ background:url(images/ajaxtab.gif) no-repeat right 100%!important; height:25px!important;}
+.ajax__tab_xp .ajax__tab_inner{ background:url(images/ajaxtab.gif) no-repeat left 100%!important;height:25px!important;}
+.ajax__tab_xp .ajax__tab_tab{background:url(images/ajaxtabbg.gif) repeat-x 100%!important;}
+.ajax__tab_xp .ajax__tab_header{ font-size:9pt!important;}
+.ajax__tab_xp .ajax__tab_outer{ background:url(images/ajaxtab.gif) no-repeat right 100%!important; height:25px!important; margin-right:2px!important;}
+.ajax__tab_xp .ajax__tab_inner{ background:url(images/ajaxtab.gif) no-repeat left 100%!important;height:25px!important;}
+.ajax__tab_xp .ajax__tab_tab{background:url(images/ajaxtabbg.gif) repeat-x 100%!important; padding:0px 5px!important; height:25px!important; line-height:25px!important;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer{background:url(images/ajaxtabhover.gif) no-repeat right 100%!important;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner{ background:url(images/ajaxtabhover.gif) no-repeat left 100%!important;height:25px!important;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab{ background:url(images/ajaxtabhoverbg.gif) repeat-x 100%!important;height:25px!important;}
+
+/*进度条*/
+
+.kpms-complete{ width:100px; border:#ccc 1px solid; background:#fff; height:15px;display:inline-block; float:left;}
+.kpms-completed{ background:#0C0;  height:15px;display:block;}

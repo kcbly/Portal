@@ -1,0 +1,8 @@
+2023-09-12 17:17:37,095 [72] ERROR FileLogger - RTX消息提醒
+System.Runtime.InteropServices.COMException (0xFFFFBA9E): 应用SDK:连接SDK服务器错误
+   在 RTXSAPILib.IRTXSAPIRootObj.SendNotify(String bstrReceiver, String bstrTitle, Int32 lDelayTime, String bstrMsg)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.RTXActivityAlert(Message message)
+2023-09-12 17:17:58,752 [115] ERROR FileLogger - RTX消息提醒
+System.Runtime.InteropServices.COMException (0xFFFFBA9E): 应用SDK:连接SDK服务器错误
+   在 RTXSAPILib.IRTXSAPIRootObj.SendNotify(String bstrReceiver, String bstrTitle, Int32 lDelayTime, String bstrMsg)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.RTXActivityAlert(Message message)

@@ -1,0 +1,66 @@
+2024-04-28 10:36:56,994 [242] ERROR FileLogger - Weixin推送出错
+System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://192.168.1.123:9001/WeiXin/SOA/SendWXMsg.asmx。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.SendTextCardMsg(String loginId, String msgContent, String ProcessinstanceName)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.WeixinAlert(Message message)
+2024-04-28 10:37:57,772 [242] ERROR FileLogger - Weixin推送出错
+System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://192.168.1.123:9001/WeiXin/SOA/SendWXMsg.asmx。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.SendTextCardMsg(String loginId, String msgContent, String ProcessinstanceName)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.WeixinAlert(Message message)
+2024-04-28 10:38:11,589 [242] ERROR FileLogger - Weixin推送出错
+System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://192.168.1.123:9001/WeiXin/SOA/SendWXMsg.asmx。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoap.SendTextCardMsg(SendTextCardMsgRequest request)
+   在 Zhongsoft.EDPortal.Plugins.SendWXMsg.SendWXMsgSoapClient.SendTextCardMsg(String loginId, String msgContent, String ProcessinstanceName)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.WeixinAlert(Message message)

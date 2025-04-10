@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>关键词高亮显示</h1>
+
+
+<p class="text">我是测试文字，测试高亮功能</p>
+<p class="text">我是测试文字，测试高亮功能，点击按钮测试吧</p>
+<p class="text">我是测试文字，测试高亮功能</p>
+<p class="text">我是测试文字，测试高亮功能，点击按钮测试吧</p>
+<p class="text">我是测试文字，测试高亮功能</p>
+<p class="text">我是测试文字，测试高亮功能，点击按钮测试吧</p>
+
+<input type="text" value="高亮"/>
+<button class="one">点我</button>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/gaoliang.js"></script>
+<script type="text/javascript">
+$(".one").click(function () {
+    var otext = $("input").val();
+
+    $('.text').GL({
+        ocolor:'red',   //设置关键词高亮颜色
+        oshuru:otext   //设置要显示的关键词
+    });
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+2024-03-25 09:29:20,008 [74] ERROR FileLogger - RTX消息提醒
+System.Runtime.InteropServices.COMException (0xE7FA5D27): 应用SDK服务器:未知错误
+   在 RTXSAPILib.IRTXSAPIRootObj.SendNotify(String bstrReceiver, String bstrTitle, Int32 lDelayTime, String bstrMsg)
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.RTXActivityAlert(Message message)

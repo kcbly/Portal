@@ -1,0 +1,6 @@
+2023-03-21 17:08:37,989 [44] ERROR FileLogger - RTX消息提醒
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.RTXActivityAlert(Message message)
+2023-03-21 17:08:38,005 [44] ERROR FileLogger - Weixin推送出错
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zhongsoft.EDPortal.Plugins.MessagePlugin.WeixinAlert(Message message)
